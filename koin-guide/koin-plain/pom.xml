@@ -3,8 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>koin-guide</artifactId>
+    <packaging>pom</packaging>
     <name>koin-guide</name>
     <description>Demo project for Koin</description>
+    <modules>
+        <module>koin-plain</module>
+    </modules>
 
     <parent>
         <groupId>com.baeldung</groupId>
